@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+    color: aqua;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    position: relative;
+}
+
+video {
+    display: none; /* Hide video but keep it active for detection. */
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#expressionText {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+}
